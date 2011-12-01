@@ -31,3 +31,7 @@
  */
 #undef RKLogComponent
 #define RKLogComponent lcl_cApp
+
+#ifndef RESTKIT_SSL_VALIDATION
+#define RESTKIT_SSL_VALIDATION
+#endif
