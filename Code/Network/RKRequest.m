@@ -38,6 +38,9 @@
 #undef RKLogComponent
 #define RKLogComponent lcl_cRestKitNetwork
 
+#undef RKLogDebug
+#define RKLogDebug NSLog
+
 @implementation RKRequest
 @class GCOAuth;
 
